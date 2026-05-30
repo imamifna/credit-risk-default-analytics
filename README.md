@@ -1,4 +1,11 @@
 # 📈 Credit Risk Default Analytics (Home Credit)
+## 🖥️ Dashboard Preview
+
+### Page 1: Demographic Risk Overview
+![Page 1 Overview](dashboards/dashboard_page1.png)
+
+### Page 2: Financial Risk Deep-Dive
+![Page 2 Deep-Dive](dashboards/dashboard_page2.png)
 
 ## 📌 Business Overview & Problem Statement (STAR: Situation & Task)
 In the consumer finance industry, accurately assessing credit risk is crucial to minimizing **Non-Performing Loans (NPL)** while maximizing loan approval rates for qualified customers. 
