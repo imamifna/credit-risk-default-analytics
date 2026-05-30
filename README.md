@@ -38,9 +38,20 @@ The dashboard monitors critical credit risk metrics using advanced DAX:
 ---
 
 ## 📊 Business Insights & Results (STAR: Result)
-*Detailed business recommendations and dashboard screenshots will be populated upon final analysis deployment.*
 
----
+Based on the interactive dashboard data, the credit risk profile exhibits clear structural patterns across demographic and financial leverage factors:
+
+### 🏢 1. Structural Labor & Demographic Risk Profile (Page 1)
+* **Macro Portfolio Health:** The baseline portfolio exhibits a dynamic **8.05% Overall Default Rate**.
+* **High-Risk Labor Segments:** High-volume operational occupations show massive risk concentrations. **Low-skill Laborers** present an alarming default rate of **17.09%**, followed by **Drivers** at **11.10%**, and **Security Staff** at **10.96%**.
+* **Gender-Specific Risk Surge:** When isolated to **Male Applicants**, the overall default rate surges to **10.26%**. Most notably, **Male Realty Agents** exhibit an extreme default rate of **28.57%**, making it the highest risk category in the entire portfolio.
+* **Underwriting Strategy:** Implement a high-barrier credit scoring tier for manual labor categories, shorten maximum loan tenures for high-default profiles, and apply stricter verification protocols for male applicants in real estate commissions.
+
+### 💸 2. Financial Leverage & Debt Service Ratio (DSR) Deep-Dive (Page 2)
+* **Macro Financial Stress:** The average portfolio operates at a safe **Debt Service Ratio (DSR)**, showing robust repayment breathing room.
+* **Unemployed Segment Leverage:** Applicants flagged under the **Unemployed (Male)** segment show a critical cash-flow strain with an average DSR skyrocketing to **85.37%**, despite being assigned a minimal credit limit. This signals a guaranteed delinquency pipeline.
+* **Data Quality Issue Discovered:** The dashboard exposed a data anomaly where male applicants were categorized under **Maternity Leave** with an average credit exposure of **0.77M** and a high DSR of **21.25%**. 
+* **Risk Mitigation Strategy:** Establish a hard systemic cap on maximum allowable DSR (e.g., maximum 30% for standard applicants). Automatically route any "Unemployed" high-DSR profiles to an immediate auto-reject pipeline. Initiate a data-cleansing sweep with the IT core banking system to eliminate cross-gender data entry errors found in the Maternity Leave category.
 
 ## 📂 Repository Structure
 * `dashboards/`: Contains the interactive Power BI `.pbix` file.
